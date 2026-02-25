@@ -24,6 +24,6 @@ public class NetVtigerLogin {
 		driver.findElement(By.linkText("Playwrigth Automation")).click();
 		driver.findElement(By.linkText("Playwrigth Automation")).sendKeys(Keys.ENTER);
 		// Submit
-//		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
 }
